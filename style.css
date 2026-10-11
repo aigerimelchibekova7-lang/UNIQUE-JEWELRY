@@ -1,0 +1,143 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f3f9;
+  color:black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color:antiquewhite;
+  padding: 20px 0;
+  border-bottom: 1px solid white;
+}
+
+header h1 {
+  text-align: center;
+  font-weight: 300;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #c49b6d;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 40px auto;
+  gap: 20px;
+  padding: 0 20px;
+  
+}
+
+.banner-text h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.banner-text p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.banner-text button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #c49b6d;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.banner-text button:hover {
+  background-color: #b3875d;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  gap: 40px;
+}
+
+.category-card img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.category-card h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.product-card {
+  background-color:white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-card h4 {
+  margin: 10px 0 5px;
+  font-weight: 500;
+}
+
+.product-card p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+footer {
+  background-color: cornsilk;
+  text-align: center;
+  padding: 20px 10px;
+  border-top: 1px solid rgb(210, 191, 191);
+  margin-top: 30px;
+}
+
+.btn{
+  background-color: #b08452;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
